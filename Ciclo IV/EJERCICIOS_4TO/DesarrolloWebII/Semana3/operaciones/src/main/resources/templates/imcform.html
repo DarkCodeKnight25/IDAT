@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/styles/bootstrap/bootstrap.css}">
+    <script th:src="@{/styles/bootstrap/bootstrap.bundle.css}" type="text/javascript"></script>
+</head>
+<body>
+<div class="card">
+    <div class="card-header">
+        Calculadora IMC
+    </div>
+    <div class="card-body">
+        <form th:action="@{/Calcularimc}" method="post" th:object="${imcmodel}">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="txttalla" placeholder="name@example.com" th:field="*{talla}">
+                <label for="txttalla">Ingresar Talla (cm) :</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="txtpeso" placeholder="name@example.com" th:field="*{peso}">
+                <label for="txtpeso">Ingresar Peso (Kg) :</label>
+            </div>
+            <button type="submit" class="btn btn-outline-warning">Calcular</button>
+            <div th:if="${visualizar}" class="alert" th:classappend="${coloralert}" role="alert">
+                <span th:text="${diagnostico} ?: ''"></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" th:href="@{/styles/bootstrap/bootstrap.css}">
+    <script th:src="@{/styles/bootstrap/bootstrap.bundle.css}" type="text/javascript"></script>
+</head>
+<body>
+<div class="card">
+    <div class="card-header">
+        Autenticacion
+    </div>
+    <div class="card-body">
+        <form th:action="@{/login}" method="post" th:object="${loginmodel}">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="txtusuario" placeholder="name@example.com" th:field="*{usuario}">
+                <label for="txtusuario">Usuario</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="txtpassword" placeholder="Password" th:field="*{password}">
+                <label for="txtpassword">Password</label>
+            </div>
+            <button type="submit" class="btn btn-outline-warning">Ingresar</button>
+            <div th:if="${visualizar}" class="alert alert-danger" role="alert">
+                Error al ingresar datos, volver a intentarlo!!!
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
