@@ -1,0 +1,24 @@
+DESCARGA E INSTALACIÓN DE SQL SERVER
+------------------------------------
+
+Ya que en esta semana estaremos entrando de lleno al mundo de la gestión de base de datos, 
+necesitan tener instalado en sus equipos la versión de microsoft SQL Server 2019
+para desarrolladores (developer), ya que esta es una versión gratuita que nos permitira
+realizar todos los ejercicios que iremos revisando durante el curso.
+
+El link de acceso es el siguiente:
+-------------------------------------
+https://www.microsoft.com/es-es/sql-server/sql-server-downloads (Enlaces a un sitio externo.)
+
+
+Luego deberán descargar el SSMS que es el IDE que les permitirá trabajar con el motor 
+de base de datos, para lograr ello pueden entrar al siguiente link:
+----------------------------------------------------------------------------------------
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15 (Enlaces a un sitio externo.)
+
+
+Vídeo de Instalación SQL SERVER
+--------------------------------------------------
+https://www.youtube.com/watch?v=yasfZuou3zI&t=316s
+
+
