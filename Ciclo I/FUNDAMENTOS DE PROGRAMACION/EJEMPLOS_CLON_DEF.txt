@@ -1,0 +1,260 @@
+EJEMPLOS SOBRE EL USO DEL DEF, CLON
+1)
+def SumarLista(Clon):
+    Acum = 0
+    for i in Clon:
+        Acum = Acum + i
+    return Acum
+
+def PromedioLista(Clon):
+    return SumarLista(Clon)/len(Clon)
+
+def ConteoPar(Clon):
+    Contador = 0
+    for i in Clon:
+        if i % 2 == 0:
+            Contador = Contador + 1
+    return Contador
+
+def ConteoImPar(Clon):
+    Contador = 0
+    for i in Clon:
+        if i % 2 == 1:
+            Contador = Contador + 1
+    return Contador
+
+def SumatoriaPar(Clon):
+    Acum = 0
+    for i in Clon:
+        if i % 2 == 0:
+            Acum = Acum + i
+    return Acum
+
+def SumatoriaImPar(Clon):
+    Acum = 0
+    for i in Clon:
+        if i % 2 == 1:
+            Acum = Acum + i
+    return Acum
+
+def QuienesSonPares(Clon):
+    X = []
+    for i in Clon:
+        if i % 2 == 0:
+            X.append(i)
+    return X
+
+def QuienesSonImPares(Clon):
+    X = []
+    for i in Clon:
+        if i % 2 == 1:
+            X.append(i)
+    return X
+
+    
+    
+    
+    
+
+#Programa Principal
+L = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
+
+2)
+#Pregunta 1
+def TotalLista(Clon):
+    Acum = 0
+    for i in Clon:
+        Acum = Acum + i
+    return Acum
+
+def PromedioLista(Clon):
+    return TotalLista(Clon)/len(Clon)
+
+def ConteoPar(Clon):
+    Contador = 0
+    for i in Clon:
+        if i % 2 == 0:
+            Contador = Contador + 1
+    return Contador
+
+def ConteoImPar(Clon):
+    Contador = 0
+    for i in Clon:
+        if i % 2 == 1:
+            Contador = Contador + 1
+    return Contador
+
+def SumatoriaPar(Clon):
+    Acum = 0
+    for i in Clon:
+        if i % 2 == 0:
+            Acum = Acum + i
+    return Acum
+
+def SumatoriaImPar(Clon):
+    Acum = 0
+    for i in Clon:
+        if i % 2 == 1:
+            Acum = Acum + i
+    return Acum
+
+def Quienes_Son_Pares(Clon):
+    X = []
+    for i in Clon:
+        if i % 2 == 0:
+            X.append(i)
+    return X 
+
+def Quienes_Son_ImPares(Clon):
+    X = []
+    for i in Clon:
+        if i % 2 == 1:
+            X.append(i)
+    return X 
+   
+def Salida_Datos(Clon):
+    print("Total Lista        : ", TotalLista(Clon))
+    print("Promedio Lista     : ", PromedioLista(Clon))
+    print("Conteo Par         : ", ConteoPar(Clon))
+    print("Conteo ImPar       : ", ConteoImPar(Clon))
+    print("Sumatoria Par      : ", SumatoriaPar(Clon))
+    print("Sumatoria ImPar    : ", SumatoriaImPar(Clon))
+    print("Quienes son Pares  : ", Quienes_Son_Pares(Clon))
+    print("Quienes son ImPares: ", Quienes_Son_ImPares(Clon))
+    
+
+
+#PROGRAMA PRINCIPAL
+L = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
+print("========================================")
+print(L)
+print("========================================")
+Salida_Datos(L)
+
+
+
+
+#Pregunta 2:
+import random
+
+def GenerarListaAleatoria(Clon):
+    for i in range(10):
+        n = random.randrange(99)
+        Clon.append(n)
+
+def ListaAlReves(Clon):
+    X =[]
+    for i in range(len(Clon)-1,-1,-1):
+        X.append(Clon[i])
+    return X
+
+def Salida_Datos(Clon):
+    print(ListaAlReves(Clon))
+        
+
+#Programa Principal
+L = []
+GenerarListaAleatoria(L)
+print("L = ", L)
+Salida_Datos(L)
+
+
+
+
+#Pregunta 3
+import random
+
+def GenerarMatrizAleatoria(Clon):
+    for f in range(10):
+        Clon.append([])
+        for c in range(10):
+            n = random.randrange(99)
+            Clon[f].append(n)
+
+def Salida_Datos(Clon):
+    for f in range(10):
+        for c in range(10):
+            print(Clon[f][c],end=" ")
+        print()
+
+    
+#Programa Principal
+M = []
+GenerarMatrizAleatoria(M)
+Salida_Datos(M)
+
+
+
+#Pregunta 4
+
+import random
+
+def GenerarMatrizAleatoria(Clon):
+    for f in range(3):
+        Clon.append([])
+        for c in range(3):
+            n = random.randrange(99)
+            Clon[f].append(n)
+
+def PasarAlMayor(Clon1, Clon2, Clon3):
+    for f in range(3):
+        Clon3.append([])
+        for c in range(3):
+            if Clon1[f][c] >= Clon2[f][c]:
+                Clon3[f].append(Clon1[f][c])
+            else:
+                Clon3[f].append(Clon2[f][c])
+
+def Salida_Datos(Clon1, Clon2, Clon3):
+    print("A : " , Clon1)
+    print("B : " , Clon2)
+    print("C : " , Clon3)
+
+
+#Programa Principal
+A = []
+B = []
+C = []
+GenerarMatrizAleatoria(A)
+GenerarMatrizAleatoria(B)
+PasarAlMayor(A, B, C)
+Salida_Datos(A, B, C)
+
+
+
+#Pregunta 4
+
+import random
+
+def GenerarMatrizAleatoria(Clon):
+    for f in range(3):
+        Clon.append([])
+        for c in range(3):
+            n = random.randrange(99)
+            Clon[f].append(n)
+
+def PasarAlMayor(Clon1, Clon2, Clon3):
+    for f in range(3):
+        Clon3.append([])
+        for c in range(3):
+            if Clon1[f][c] >= Clon2[f][c]:
+                Clon3[f].append(Clon1[f][c])
+            else:
+                Clon3[f].append(Clon2[f][c])
+
+def Salida_Datos(Clon1, Clon2, Clon3):
+    print("A : " , Clon1)
+    print("B : " , Clon2)
+    print("C : " , Clon3)
+
+
+#Programa Principal
+A = []
+B = []
+C = []
+GenerarMatrizAleatoria(A)
+GenerarMatrizAleatoria(B)
+PasarAlMayor(A, B, C)
+Salida_Datos(A, B, C)
+
+

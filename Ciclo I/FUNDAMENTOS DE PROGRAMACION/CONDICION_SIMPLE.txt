@@ -1,0 +1,52 @@
+EJERCICIOS DE CONDICION SIMPLE
+1)
+Algoritmo PARTIDO_FULBITO
+	Escribir "INGRESE CANTIDAD DE GOLES EQUIPO A:"
+	Leer A
+	Escribir "INGRESE CANTIDAD DE GOLES EQUIPO B:"
+	Leer B
+	Si A > B Entonces
+		Escribir "GANO A"
+	Fin Si
+	Si B > A Entonces
+		Escribir "GANO B"
+	Fin Si
+	Si A = B Entonce
+		Escribir "EMPATE"
+	Fin Si
+	
+FinAlgoritmo
+
+2)
+Algoritmo POSITIVO_NEGATIVO
+	Escribir "INGRESE NUMERO:"
+	Leer N
+	Si N > 0 Entonces
+		Escribir "ES POSITIVO"
+	Fin Si
+	Si N < 0 Entonces
+		Escribir "ES NEGATIVO"
+	Fin Si
+	Si N = 0 Entonces
+		Escribir "ES NEUTRO"
+	Fin Si
+FinAlgoritmo
+
+3)
+Algoritmo PROMEDIO_PONDERADO
+	Escribir "INGRESE PROMEDIO PONDERADO:"
+	Leer P
+	Si P >= 17 Entonces
+		Escribir "SU CATEGORIA ES A"
+	Fin Si
+	Si P>=14 y P<17 Entonces
+		Escribir "SU CATEGORIA ES B"
+	Fin Si
+	Si P >= 12 y P < 14 Entonces
+		Escribir "SU CATEGORIA ES C"
+	Fin Si
+	Si P < 12 Entonces
+		Escribir "SU CATEGORIA ES D"
+	Fin Si	
+	
+FinAlgoritmo

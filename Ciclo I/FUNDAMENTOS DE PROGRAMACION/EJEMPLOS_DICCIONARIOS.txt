@@ -1,0 +1,49 @@
+DICCIONARIOS
+1)
+#Aprender a Crear Diccionarios
+
+Dias = {1:'Domingo',2:'Lunes',3:'Martes',
+        4:'Miercoles',5:'Jueves',6:'Viernes',
+        7:'Sabado'}
+
+Impuestos = {'Renta':0.1,'Solidaridad':0.02,
+             'RentaQuinta':0.09}
+
+Seguros = {'ONP':0.13,'AFP':0.12}
+
+Vacio = {}
+
+print(Dias)
+print(Impuestos)
+print(Seguros)
+print(Vacio)
+print()
+
+#Leer los valores de los diccionarios
+print("Lectura del Diccionario en modo individual")
+print(Dias[1])
+print(Dias[2])
+print(Dias[3])
+print(Dias[4])
+print(Dias[5])
+print(Dias[6])
+print(Dias[7])
+print()
+print("Lectura del Diccionario en modo bucle")
+for i in Dias:
+    print(Dias[i])
+print()
+#Operaciones usando diccionarios.
+print("Ingrese Sueldo: ", end = "")
+Sueldo = float(input())
+I_ONP = Sueldo * Seguros['ONP']
+I_AFP = Sueldo * Seguros['AFP']
+I_RENTA = Sueldo * Impuestos['Renta']
+I_SOL = Sueldo * Impuestos['Solidaridad']
+I_5TA = Sueldo * Impuestos['RentaQuinta']
+print("Descuento ONP       : ", I_ONP)
+print("Descuento AFP       : ", I_AFP)
+print("Descuento RENTA     : ", I_RENTA)
+print("Descuento SOLIDARIO : ", I_SOL)
+print("Descuento 5ta       : ", I_5TA)
+

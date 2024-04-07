@@ -1,0 +1,169 @@
+CONDICION DOBLE
+1)
+Algoritmo PARTIDO_FULBITO
+	
+	Escribir "INGRESE CANTIDAD DE GOLES EQUIPO A:"
+	Leer A
+	Escribir "INGRESE CANTIDAD DE GOLES EQUIPO B:"
+	Leer B	
+	Si A > B Entonces
+		Escribir "GAN? A"
+	Fin Si
+	Si B > A Entonces
+		Escribir "GAN? B"
+	Fin Si
+	Si A = B Entonces
+		Escribir "HUBO EMPATE"
+	Fin Si
+	
+FinAlgoritmo
+
+2)
+Algoritmo POSITIVO_NEGATIVO_NEUTRO
+	Escribir "INGRESE NUMERO:"
+	Leer N
+	Si N > 0 Entonces
+		Escribir "NUMERO POSITIVO"
+	Fin Si
+	Si N < 0 Entonces
+		Escribir "NUMERO NEGATIVO"
+	Fin Si
+	Si N = 0 Entonces
+		Escribir "NUMERO NEUTRO"
+	Fin Si
+	
+	
+FinAlgoritmo
+
+3)
+Algoritmo CONDICION_DOBLE_EJERCICIO1
+	Escribir "INGRESE PRECIO:"
+	Leer PRECIO
+	Escribir "INGRESE CANTIDAD: "
+	Leer CANT
+	
+	IC<-PRECIO * CANT
+	Si CANT>10 Entonces
+		ID<-IC*0.15
+	SiNo
+		ID<-IC*0.05
+	FinSi
+	
+	IP<- IC - ID
+	
+	Si IP>=200 Entonces
+		OBSEQUIO<-"AGENDA"
+	SiNo
+		OBSEQUIO<-"CUADERNO"
+	FinSi
+	
+	Escribir "==================================="
+	Escribir "DETALLES DE LA COMPRA"
+	Escribir "==================================="
+	Escribir "PRECIO               : ", PRECIO
+	Escribir "CANTIDAD             : ", CANT
+	Escribir "IMPORTE DE COMPRA    : ", IC
+	Escribir "IMPORTE DE DESCUENTO : ", ID
+	Escribir "IMPORTE A PAGAR      : ", IP
+	Escribir "OBSEQUIO             : ", OBSEQUIO
+	Escribir "==================================="
+	
+	
+	
+FinAlgoritmo
+
+4)
+Algoritmo CONDICION_DOBLE_EJERCICIO2
+	
+	Escribir "CANTIDAD DE PASAJES:"
+	Leer CP
+	
+	Escribir "PRECIO DEL PASAJE:"
+	Leer PP
+	
+	IC<-CP * PP
+	Si IC<400 Entonces
+		ID<-IC*0.05
+	SiNo
+		ID<-IC*0.12
+	FinSi
+	
+	IP<- IC - ID
+	Si CP >=6 Entonces
+		OBSEQUIO<-3 * CP
+	SiNo
+		OBSEQUIO<-2 * CP
+	FinSi
+	
+	Escribir "==================================="
+	Escribir "DETALLES DE LA COMPRA"
+	Escribir "==================================="
+	Escribir "PRECIO DEL PASAJE    : ", PP
+	Escribir "CANTIDAD DE PASAJES  : ", CP
+	Escribir "IMPORTE DE COMPRA    : ", IC
+	Escribir "IMPORTE DE DESCUENTO : ", ID
+	Escribir "IMPORTE A PAGAR      : ", IP
+	Escribir "OBSEQUIO             : ", OBSEQUIO
+	Escribir "==================================="
+	
+	
+	
+	
+FinAlgoritmo
+
+5)
+Algoritmo CONDICION_DOBLE_EJERCICIO3
+	
+	Escribir "INGRESE CODIGO:"
+	Leer COD
+	
+	Si COD=101 Entonces
+		PRECIO<-17.5
+	SiNo Si COD=102 Entonces
+		PRECIO<-25
+	SiNo Si COD=103 Entonces
+		PRECIO<-15.5
+	FinSi
+    FinSi
+    FinSi
+	
+	Escribir "INGRESE CANTIDAD:"
+	Leer CANT
+	
+	IC<- PRECIO * CANT
+	
+	Si CANT<11 Entonces
+		ID<- IC * 0.05
+	SiNo Si CANT>=11 & CANT<21 Entonces
+		ID<- IC * 0.075
+	SiNo Si CANT>=21 & CANT<31 Entonces
+		ID<- IC * 0.1
+	SiNo Si CANT>=31 Entonces
+		ID<- IC * 0.125
+	FinSi
+    FinSi
+    FinSi
+    FinSi
+	
+	IP<- IC - ID
+	
+	Si IP > 250 Entonces
+		OBSEQUIO<-"UNA AGENDA"
+	SiNo
+		OBSEQUIO<-"UN LAPICERO"
+	FinSi
+	
+	Escribir "==================================="
+	Escribir "DETALLES DE LA COMPRA"
+	Escribir "==================================="
+	Escribir "CODIGO               : ", COD
+	Escribir "PRECIO               : ", PRECIO
+	Escribir "CANTIDAD             : ", CANT
+	Escribir "IMPORTE DE COMPRA    : ", IC
+	Escribir "IMPORTE DE DESCUENTO : ", ID
+	Escribir "IMPORTE A PAGAR      : ", IP
+	Escribir "OBSEQUIO             : ", OBSEQUIO
+	Escribir "==================================="
+	
+	
+FinAlgoritmo

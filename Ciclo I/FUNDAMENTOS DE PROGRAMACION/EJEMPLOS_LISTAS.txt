@@ -1,0 +1,78 @@
+EJERCICOS DE LISTAS
+1)
+# Vector = Lista
+Meses = ["Enero","Febrero","Marzo", "Abril",
+         "Mayo","Junio","Julio","Agosto",
+         "Setiembre","Octubre","Noviembre",
+         "Diciembre"]
+
+Sueldos = []
+
+#Imprimir los Meses
+for i in Meses:
+    print(i)
+    
+print()
+
+#Ingresar los sueldo para cada Mes
+for i in Meses:
+    print("Sueldo ",i)
+    n = float(input())
+    Sueldos.append(n)
+print()
+
+#Imprimir los Sueldos
+j = -1
+for i in Meses:
+    j=j+1
+    print(i," --> ",Sueldos[j])
+print()
+
+#Sueldo Maximo
+Maximo = 0
+for i in Sueldos:
+    if i >= Maximo:
+        Maximo = i
+print("Sueldo Maximo: ",Maximo)
+
+#Sueldo Minimo
+Minimo = Maximo
+for i in Sueldos:
+    if i <= Minimo:
+        Minimo = i
+print("Sueldo Minimo: ", Minimo)
+
+#La Suma total de Sueldo
+Acum = 0
+for i in Sueldos:
+    Acum = Acum + i
+print("Sueldos Acumulados: ", Acum)
+
+#Mostrar los sueldos pares
+j = -1
+print("Sueldos Pares:")
+print("==================")
+for i in Sueldos:
+    j=j+1
+    if i % 2 == 0:
+        print(Meses[j]," --> ",i)
+
+#Mostrar los sueldos impares
+j = -1
+print("Sueldos ImPares:")
+print("==================")
+for i in Sueldos:
+    j=j+1
+    if i % 2 == 1:
+        print(Meses[j]," --> ",i)
+print()
+
+g1 = 0
+g2 = 0
+j=0
+for i in Sueldos:
+    j=j+1 
+    if j<=6:    g1=g1+i
+    if j > 6:   g2=g2+i
+print("Grati 1:", g1/6)
+print("Grati 2:", g2/6)

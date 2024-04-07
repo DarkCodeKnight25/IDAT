@@ -1,0 +1,93 @@
+EJEMPLOS DE MATRICES
+1)
+
+
+#1 forma
+# Matriz creada (3 x 3)
+A = [[10, 4, 6],
+     [20, 5, 7],
+     [3, 7, 9]]
+
+print(A)
+
+# Caso 1: Obtener la sumatoria de la Matriz
+Acum = 0
+for f in range(3):
+    for c in range(3):
+       Acum = Acum + A[f][c]
+print("La Sumatoria de la Matriz es: ", Acum)
+
+#Caso 2: Obtener el Mayor de todos
+Maximo = 0
+for f in range(3):
+    for c in range(3):
+        if A[f][c] >= Maximo:
+            Maximo = A[f][c]
+print("El Mayor de todos es: ", Maximo)
+
+#========================================================
+
+
+
+#2 forma
+# Matriz debe ser creada
+
+A = []
+for f in range(3):
+    A.append([]) # --> [[20, 5, 10],[90, 30, 10],[5, 50, 25]]
+    for c in range(3):
+        print("A[",f,",",c,"]:",end="")
+        n = int(input())
+        A[f].append(n)
+
+print(A)
+
+#Caso 1: Obtener la Sumatoria
+
+
+#Caso 2: Obtener el mayor
+
+
+#========================================================
+
+#ioperaciones entre matrices
+
+A = [[1,2,3],
+     [3,2,1],
+     [1,2,3]]
+
+B = [[3,2,1],
+     [1,2,3],
+     [3,2,1]]
+
+C = [[0,0,0],
+     [0,0,0],
+     [0,0,0]]
+
+print(A)
+print(B)
+print(C)
+print()
+# Sumar los elementos de las Matrices A y B
+# el resultado debe ser asignado  a la Matriz C
+
+for f in range (3):
+    for c in range(3):
+        C[f][c] = A[f][c] + B[f][c]
+
+print("A: ",A)
+print("B: ",B)
+print("C: ",C)
+print()
+
+# Caso adicional.
+# se desea grabar en la matriz C los cuadrados
+# las sumas de la matrices A y B.
+
+for f in range (3):
+    for c in range(3):
+        C[f][c] = (A[f][c] + B[f][c])**2
+
+print("A: ",A)
+print("B: ",B)
+print("C: ",C)
