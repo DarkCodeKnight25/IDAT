@@ -1,0 +1,14 @@
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\bin\Debug\evaluacion_continua_01.exe.config
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\bin\Debug\evaluacion_continua_01.exe
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\bin\Debug\evaluacion_continua_01.pdb
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.csprojAssemblyReference.cache
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.Form1.resources
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.Properties.Resources.resources
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.csproj.GenerateResource.cache
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.csproj.CoreCompileInputs.cache
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.exe
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.pdb
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.Form2.resources
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.Form3.resources
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.Form4.resources
+C:\Users\IDAT\source\repos\evaluacion_continua_01\evaluacion_continua_01\obj\Debug\evaluacion_continua_01.Form5.resources

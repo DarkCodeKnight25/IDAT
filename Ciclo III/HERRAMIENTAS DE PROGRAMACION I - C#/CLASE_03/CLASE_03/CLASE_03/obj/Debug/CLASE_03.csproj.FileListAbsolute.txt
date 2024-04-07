@@ -1,0 +1,13 @@
+G:\CLASE_03\CLASE_03\CLASE_03\bin\Debug\CLASE_03.exe.config
+G:\CLASE_03\CLASE_03\CLASE_03\bin\Debug\CLASE_03.exe
+G:\CLASE_03\CLASE_03\CLASE_03\bin\Debug\CLASE_03.pdb
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.csprojAssemblyReference.cache
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.Form1.resources
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.Properties.Resources.resources
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.csproj.GenerateResource.cache
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.csproj.CoreCompileInputs.cache
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.exe
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.pdb
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.Form2.resources
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.Form3.resources
+G:\CLASE_03\CLASE_03\CLASE_03\obj\Debug\CLASE_03.Form4.resources

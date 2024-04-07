@@ -1,0 +1,11 @@
+G:\CLASE_02\trabajo1\trabajo1\bin\Debug\trabajo1.exe.config
+G:\CLASE_02\trabajo1\trabajo1\bin\Debug\trabajo1.exe
+G:\CLASE_02\trabajo1\trabajo1\bin\Debug\trabajo1.pdb
+G:\CLASE_02\trabajo1\trabajo1\obj\Debug\trabajo1.csprojAssemblyReference.cache
+G:\CLASE_02\trabajo1\trabajo1\obj\Debug\trabajo1.Form1.resources
+G:\CLASE_02\trabajo1\trabajo1\obj\Debug\trabajo1.Properties.Resources.resources
+G:\CLASE_02\trabajo1\trabajo1\obj\Debug\trabajo1.csproj.GenerateResource.cache
+G:\CLASE_02\trabajo1\trabajo1\obj\Debug\trabajo1.csproj.CoreCompileInputs.cache
+G:\CLASE_02\trabajo1\trabajo1\obj\Debug\trabajo1.exe
+G:\CLASE_02\trabajo1\trabajo1\obj\Debug\trabajo1.pdb
+G:\CLASE_02\trabajo1\trabajo1\obj\Debug\trabajo1.Form2.resources
