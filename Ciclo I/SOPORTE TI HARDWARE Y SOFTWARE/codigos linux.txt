@@ -1,0 +1,20 @@
+cd Escritorio
+Escritorio# ls
+Escritorio# mkdir alumno : crea carpeta alumno con llave
+Escritorio# mkdir cursos notas
+Escritorio# mkdir 'tarea 1' 'tarea 2'
+Escritorio# rmdir notas : elimina carpeta
+Escritorio# rmdir cursos
+Escritorio# rm - r  
+Escritorio# cd alumno
+Escritorio/alumno# touch alumno1.txt : crea archivo sin contenido
+Escritorio/alumno# echo d19267 > alumno2.txt : crea archivo con contenido
+Escritorio/alumno# cd .. : salir de la carpeta seleccionada
+Escritorio# rm -r alumno : elimina el archivo seleccionado
+Escritorio# touch idat.txt
+Escritorio# cp idat.txt idat_copia.txt : copia archivo, textos, etc
+Escritorio# cp idat.txt /home/roo/Escritorio/tarea\ 1/idat.txt : copia archivo y manda a una nueva ubicacion seleccionada
+Escritorio# cp idat.txt '/home/roo/Escritorio/tarea 1/idat2.txt'
+/home/roo/Escritorio# mv idat.txt /roo/home/Escritorio/tarea\ 2/ :trasladar un sitio a otro sitio
+/home/roo/Escritorio# echo hola > hola.doc
+Escritorio# rmdir : borrar cuando la carpeta estee vacia
