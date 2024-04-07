@@ -1,0 +1,37 @@
+LINK DE ACCESO A DESCARGAR:
+-----------------------------------
+https://utpedupe-my.sharepoint.com/:f:/g/personal/d18128_idat_edu_pe/EkTrp_0k_CdGjJNugp9lAbwBgpgNhsjOPIfmYSZupNYiwg?e=HllPro
+
+PASOS PARA INSTALAR ORACLE 11g XE Express Edition. (300mg)
+----------------------------------------------------------
+
+PASO 1: Averiguar el sistema de archivos de nuestro computador
+        este puede ser de 32bits o 64bits
+
+PASO 2: como ya sabemos cual es el sistema de archivos
+        se debe descargar el programa oracle apropiado.
+
+        Si tu sistema es 64bits, descargar: OracleXE112_Win64.zip
+        Si tu sistema es 32bits, descargar: OracleXE112_Win32.zip
+
+PASO 3: descargar el JDK, si fuera posible buscar y descargar una version actualizada.
+        el archivo es: jdk-8u45-nb-8_0_2-windows-i586.zip
+
+        Ten Presente: si estas usando Java NetBeans o Eclipse
+                      o Android, entonces no es necesario 
+                      descargar el programa, ni siquiera
+                      instalarlo.
+
+PASO 4: descargar la herramienta cliente:  sqldeveloper
+        esta herramienta cliente exige que en la Pc, se encuentre
+        instalado el JDK.
+
+        programa: sqldeveloper-4.1.1.19.59-no-jre.zip
+
+PASO 5: Pendiente: existe otra herramienta cliente: PL/SQL - TOAD (opcional)
+
+PASO 6: Ver el video de instalación.
+        si puede descargarlo antes para no saturar la red.
+        y ver el video de forma local.
+
+Contraseña: 123
