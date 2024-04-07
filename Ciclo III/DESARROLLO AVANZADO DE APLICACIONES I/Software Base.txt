@@ -1,0 +1,6 @@
+JDK
+https://www.oracle.com/pe/java/technologies/downloads/#jdk19-windows
+NetBeans (Apache NetBeans 16)
+https://netbeans.apache.org/download/index.htmlNetBeans
+MySql
+https://dev.mysql.com/downloads/

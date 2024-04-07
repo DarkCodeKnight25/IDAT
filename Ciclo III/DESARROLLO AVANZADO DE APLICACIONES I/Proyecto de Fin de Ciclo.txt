@@ -1,0 +1,12 @@
+Proyecto de Fin de Ciclo
+------------------------
+1 proyecto por grupo de hasta 4 personas.
+El caso del proyecto es de libre elección del grupo.
+El proyecto abordará todos los temas vistos en clases. El framework Spring es opcional.
+El proyecto está basado en la Programación Orientada a Objetos con conexión a base de datos MySQL.
+Evitar los temas que no se han visto en clases. 
+Se realizará la demostración del funcionamiento del proyecto.
+Se explicará el código implementado en el proyecto. 
+La exposición se podrá realizar en un tiempo de hasta 30 minutos.
+Las 4 personas deben de participar en la exposición del proyecto.
+Se realizarán preguntas relacionadas a la elaboración del proyecto.
