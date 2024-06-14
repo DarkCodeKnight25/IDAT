@@ -5,20 +5,20 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-// import com.idat.wsExamen.model.Factura;
-// import com.idat.wsExamen.service.IFacturaService;
+import idat.edu.pe.EC01_DavidVega.model.factura;
+import idat.edu.pe.EC01_DavidVega.services.facturaIServices;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/examen")
-public class facturaController {
+public class facturaController { 
 
     @Autowired
-    private IFacturaService facturaService;
+    private facturaIServices facturaService;
 
     @PostMapping
-    public ResponseEntity<String> crearFacturas(@RequestBody List<Factura> facturas) {
+    public ResponseEntity<String> crearFacturas(@RequestBody List<factura> facturas) { 
         double montoTotalPendiente = facturaService.calcularTotalPendiente(facturas);
         facturaService.guardarFacturas(facturas);
 

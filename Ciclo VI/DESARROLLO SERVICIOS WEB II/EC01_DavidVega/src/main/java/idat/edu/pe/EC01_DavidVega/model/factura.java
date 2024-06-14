@@ -81,7 +81,7 @@ public class factura {
     }
     
     public enum EstadoFactura {
-        P, // Siginifica uq ya esta pagado
-        S  // Significa que eta Pendiente de Pago
+        P, 
+        S  
     }
 }
