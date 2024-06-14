@@ -3,6 +3,8 @@ package com.idat.semana1.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -68,6 +70,23 @@ public class PersonaController {
             return true;
         }catch (Exception e ){
             return false;
+        }
+    }
+
+    @GetMapping(value = "/buscarResponseEntity/{id}")
+    public ResponseEntity<Persona> buscar3(@PathVariable("id")int id){
+        List<Persona> lista=listar();
+        Persona pEncontrada=null;
+        for (Persona p:lista){
+            if (p.getIdpersona()==id){
+                pEncontrada=p;
+                break;
+            }
+        }
+        if (pEncontrada==null){
+            return new ResponseEntity<Persona>(pEncontrada, HttpStatus.NOT_FOUND);
+        }else{
+            return new ResponseEntity<Persona>(pEncontrada, HttpStatus.OK);
         }
     }
 }
