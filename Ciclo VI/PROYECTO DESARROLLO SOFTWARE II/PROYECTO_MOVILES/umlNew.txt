@@ -1,0 +1,82 @@
+@startuml
+actor Cliente
+actor Vendedor
+actor "Atención al Cliente" as ACliente
+actor Gerencia
+actor Almacén
+actor Proveedores
+actor Caja
+
+usecase "Visita Tienda Física" as UC1
+usecase "Selecciona Productos" as UC2
+usecase "Consulta Información de Productos" as UC3
+usecase "Realiza Pedido" as UC4
+usecase "Realiza Pago" as UC5
+usecase "Recibe Asistencia" as UC6
+usecase "Gestiona Devolución" as UC7
+usecase "Recibe Productos" as UC8
+usecase "Gestiona Stock" as UC9
+usecase "Realiza Inventario" as UC10
+usecase "Genera Reportes de Ventas" as UC11
+usecase "Genera Órdenes de Compra" as UC12
+usecase "Recibe Órdenes de Compra" as UC13
+usecase "Realiza Pagos a Proveedores" as UC14
+usecase "Genera Indicadores de Negocio" as UC15
+usecase "Gestiona Pagos a Trabajadores" as UC16
+usecase "Gestiona Promociones" as UC17
+usecase "Gestiona Programas de Fidelización" as UC18
+usecase "Realiza Auditoría de Inventario" as UC19
+usecase "Gestiona Reclamaciones" as UC20
+usecase "Recibe Pago" as UC21
+usecase "Emite Recibo" as UC22
+usecase "Cierra Caja" as UC23
+usecase "Genera Reporte de Caja" as UC24
+
+Cliente --> UC1
+Cliente --> UC2
+Cliente --> UC3
+Cliente --> UC4
+Cliente --> UC5
+Cliente --> UC6
+Cliente --> UC7
+
+Vendedor --> UC2
+Vendedor --> UC3
+Vendedor --> UC4
+Vendedor --> UC5
+Vendedor --> UC11
+Vendedor --> UC17
+
+ACliente --> UC6
+ACliente --> UC7
+ACliente --> UC20
+
+Gerencia --> UC11
+Gerencia --> UC15
+Gerencia --> UC16
+Gerencia --> UC17
+Gerencia --> UC18
+
+Almacén --> UC8
+Almacén --> UC9
+Almacén --> UC10
+Almacén --> UC12
+
+Proveedores --> UC12
+Proveedores --> UC13
+Proveedores --> UC14
+
+Caja --> UC23
+
+UC1 --> UC2 : include
+UC2 --> UC3 : include
+UC4 --> UC5 : include
+UC4 --> UC8 : include
+UC4 --> UC9 : include
+UC5 --> UC21 : include
+UC5 --> UC22 : include
+UC11 --> UC15 : include
+UC12 --> UC14 : include
+UC9 --> UC19 : include
+UC23 --> UC24 : include
+@enduml
