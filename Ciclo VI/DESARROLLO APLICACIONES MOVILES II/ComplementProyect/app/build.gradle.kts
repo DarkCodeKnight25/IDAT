@@ -60,11 +60,11 @@ dependencies {
 //   implementacion navigator
     implementation (libs.androidx.navigation.compose)
 
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
-    androidTestImplementation(libs.androidx.ui.test.junit4)
-    debugImplementation(libs.androidx.ui.tooling)
-    debugImplementation(libs.androidx.ui.test.manifest)
+    Implementation(libs.junit)
+    Implementation(libs.androidx.junit)
+    Implementation(libs.androidx.espresso.core)
+    Implementation(libs.androidx.compose.bom))
+    Implementation(libs.androidx.ui.test.junit4)
+    Implementation(libs.androidx.ui.tooling)
+    Implementation(libs.androidx.ui.test.manifest)
 }
