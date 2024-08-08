@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-OU8S3DF.EC2_SolucionNegocios.sa"
+  DTS:DTSID="{2F474B13-873C-411B-9122-49B61BE1A090}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-OU8S3DF;User ID=sa;Initial Catalog=EC2_SolucionNegocios;Provider=SQLNCLI11.1;Application Name=SSIS-EvaluacionContinua02-{2F474B13-873C-411B-9122-49B61BE1A090}DESKTOP-OU8S3DF.EC2_SolucionNegocios.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAo4/kgGq+x0ODuRgH3BSCDgAAAAACAAAAAAAQZgAAAAEAACAAAACudxGtvmmsJy37344L59HxgVS4C8cxi6p9wXqcnY4y+AAAAAAOgAAAAAIAACAAAACXkY/rZsvJ4Ls4rui5xHEiPs0YewIgDfuHU8E84sdIFXAAAAC8XDo1xOQ2w3XpuO9niQsVTeQRHL375qrN7CgAxLthbRKBUuRipbPOKs+a76n5n2Hy75uenN+a4iHvx056FMBm/fUkk7ty2LDcNJWqgcomjARac91aD8u3znLZTEIa62Ept+R8TQs9l6NHk3rX8gP3QAAAAHjn7lT4YSN78p9nmxQSatfBFSFVrKYb3H9ppX0n3ajkEzmRmpD8mPNFxvfcLregoTNY69OLMPhze1XeestfMXs=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

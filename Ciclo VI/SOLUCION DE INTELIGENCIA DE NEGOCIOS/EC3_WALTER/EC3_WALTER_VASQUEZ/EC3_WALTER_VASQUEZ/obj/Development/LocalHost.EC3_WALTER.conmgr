@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.EC3_WALTER"
+  DTS:DTSID="{D8715BDB-9ECF-4246-BB0E-271DA1E9F22E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=EC3_WALTER;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-EC3_WALTER_VASQUEZ-{D8715BDB-9ECF-4246-BB0E-271DA1E9F22E}LocalHost.EC3_WALTER;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

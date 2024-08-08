@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-E4C8NVI.EC3_ALVARO"
+  DTS:DTSID="{D1D02EB3-4896-4A83-9C58-C311252D9B4C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-E4C8NVI;Initial Catalog=EC3_ALVARO;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-EC3_ALVARO_QUISPE-{D1D02EB3-4896-4A83-9C58-C311252D9B4C}DESKTOP-E4C8NVI.EC3_ALVARO;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

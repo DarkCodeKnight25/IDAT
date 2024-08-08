@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_TRIMESTRE.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\VENTA_TRIMESTRE.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_PAIS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\VENTA_PAIS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_MAYOR_TRIMESTRE.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\VENTA_MAYOR_TRIMESTRE.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\SEGMENTOS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\SEGMENTOS.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\PROMEDIO_CONTINENTE.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\PROMEDIO_CONTINENTE.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\PRODUCTOS_DESCUENTO.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\PRODUCTOS_DESCUENTO.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\IMPORTAR_DATA.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\IMPORTAR_DATA.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DIAS_SEMANAL.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\DIAS_SEMANAL.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DESCUENTOS_PAISES.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\DESCUENTOS_PAISES.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DATOS_USA_FRANCIA.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\DATOS_USA_FRANCIA.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DATOS_USA.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{23661923-F230-4187-AC8C-1F23F2C5F698}|EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ.dtproj|solutionrelative:EC3_WALTER_VASQUEZ\\DATOS_USA.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PROMEDIO_CONTINENTE.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\PROMEDIO_CONTINENTE.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\PROMEDIO_CONTINENTE.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\PROMEDIO_CONTINENTE.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\PROMEDIO_CONTINENTE.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:12.4Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SEGMENTOS.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\SEGMENTOS.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\SEGMENTOS.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\SEGMENTOS.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\SEGMENTOS.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:13.394Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VENTA_MAYOR_TRIMESTRE.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_MAYOR_TRIMESTRE.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\VENTA_MAYOR_TRIMESTRE.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_MAYOR_TRIMESTRE.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\VENTA_MAYOR_TRIMESTRE.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:14.396Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VENTA_PAIS.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_PAIS.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\VENTA_PAIS.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_PAIS.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\VENTA_PAIS.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:15.62Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VENTA_TRIMESTRE.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_TRIMESTRE.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\VENTA_TRIMESTRE.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\VENTA_TRIMESTRE.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\VENTA_TRIMESTRE.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:16.85Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PRODUCTOS_DESCUENTO.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\PRODUCTOS_DESCUENTO.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\PRODUCTOS_DESCUENTO.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\PRODUCTOS_DESCUENTO.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\PRODUCTOS_DESCUENTO.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:11.149Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DIAS_SEMANAL.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DIAS_SEMANAL.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\DIAS_SEMANAL.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DIAS_SEMANAL.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\DIAS_SEMANAL.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:22.802Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DESCUENTOS_PAISES.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DESCUENTOS_PAISES.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\DESCUENTOS_PAISES.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DESCUENTOS_PAISES.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\DESCUENTOS_PAISES.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:21.363Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DATOS_USA_FRANCIA.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DATOS_USA_FRANCIA.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\DATOS_USA_FRANCIA.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DATOS_USA_FRANCIA.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\DATOS_USA_FRANCIA.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:18.961Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMPORTAR_DATA.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\IMPORTAR_DATA.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\IMPORTAR_DATA.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\IMPORTAR_DATA.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\IMPORTAR_DATA.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:09.483Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DATOS_USA.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DATOS_USA.dtsx",
+              "RelativeDocumentMoniker": "EC3_WALTER_VASQUEZ\\DATOS_USA.dtsx",
+              "ToolTip": "C:\\Users\\KenshinHimura\\source\\repos\\EC3_WALTER_VASQUEZ\\EC3_WALTER_VASQUEZ\\DATOS_USA.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "EC3_WALTER_VASQUEZ\\DATOS_USA.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-07-28T01:11:06.627Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

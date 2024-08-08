@@ -1,0 +1,24 @@
+CREATE TABLE DimTiempo(
+   [IdFecha] [int] NOT NULL, /* Formato: AAAAMMDD */
+   [Fecha] [datetime] NOT NULL,          /* FechaActual */
+   [DiaSemana] [tinyint] NULL,    /* 1 a 7 */
+   [DiaMes] [tinyint] NULL,   /* 1 a 31 */
+   [DiaAño] [smallint] NULL,   /* 1 a 366 */
+   [SemanaAño] [tinyint] NULL,   /* 1 a 53 */
+   [MesAño] [tinyint] NULL,  /* 1 a 12 */
+   [Cuatrimestre] [tinyint] NULL,    /* 1 a 4 */
+   [Semestre] [tinyint] NULL,   /* 1 a 2 */
+   [Año] [char](4) NULL, /* Año */
+   [AñoSemana] [nvarchar](25) NULL,/* Identificador: Año + Semana */
+   [AñoMes] [nvarchar](25) NULL,/* Identificador: Año + Mes */
+   [AñoCuatrimestre] [nvarchar](25) NULL,/* Identificador: Año + Cuatrimestre */
+   [AñoSemestre] [nvarchar](25) NULL,/* Identificador: Año + Semestre */
+   [DiaIngles] [nvarchar](10) NULL,
+   [DiaEspañol] [nvarchar](10) NULL,
+   [MesIngles] [nvarchar](10) NULL, /* January to December */
+   [MesEspañol] [nvarchar](10) NULL, /* Enero a Diciembre */
+CONSTRAINT [PK_DimTiempo_IdFecha] PRIMARY KEY CLUSTERED
+      ([IdFecha] ASC)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY],
+   CONSTRAINT [AK_DimTiempo_Fecha] UNIQUE NONCLUSTERED
+      ([Fecha] ASC)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]

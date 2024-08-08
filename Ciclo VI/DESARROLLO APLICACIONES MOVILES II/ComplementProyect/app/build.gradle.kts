@@ -63,7 +63,7 @@ dependencies {
     Implementation(libs.junit)
     Implementation(libs.androidx.junit)
     Implementation(libs.androidx.espresso.core)
-    Implementation(libs.androidx.compose.bom))
+    Implementation(libs.androidx.compose.bom)
     Implementation(libs.androidx.ui.test.junit4)
     Implementation(libs.androidx.ui.tooling)
     Implementation(libs.androidx.ui.test.manifest)

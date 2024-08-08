@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-E4C8NVI.EC3_MIGUEL_CHAVEZ.sa"
+  DTS:DTSID="{0E347168-B297-4EA0-8CDF-4D771228928D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=DESKTOP-E4C8NVI;User ID=sa;Initial Catalog=EC3_MIGUEL_CHAVEZ;Provider=SQLNCLI11.1;Application Name=SSIS-EC3_MIGUEL_CHAVEZ_RAMOS-{0E347168-B297-4EA0-8CDF-4D771228928D}DESKTOP-E4C8NVI.EC3_MIGUEL_CHAVEZ.sa;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJ5C/V7OnskKEk3gvMzOMDQAAAAACAAAAAAAQZgAAAAEAACAAAACggWLiLefJKtBMJ7P5rLzp5zFFXvcCO6jLwdlRVAOXZQAAAAAOgAAAAAIAACAAAADQCyj2DZUNhgVHObNTBqoImBN+5etAqqdHHbKPOL7+SYAAAAA0LepKiG5I8bJZF2J9UJaxPOBFSQT2tUBtukhzTA8Bi2YNOrBUdwi/y1YMd+h33B/MLBWLzeGZ0CZeMb1zry909+TbnuWjReJMSZxfIaMfxaUK75iMLtYcFlWT+yWG+j9+zubBnFCwwRp4rQQOX1AHN1K5kRlzE4VBNb5DPevGbEAAAAAJAbpsWaVVP83JLZ8wL/VaoAVGDhugCPEbe/kA5RC/Xh7gBgHmJ3cRFYyT0qT5Km7A6YHlUwNtycU6pN7oay+r</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

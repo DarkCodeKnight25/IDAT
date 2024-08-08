@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="7/6/2024 8:53:20 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-OU8S3DF"
+  DTS:CreatorName="DESKTOP-OU8S3DF\KenshinHimura25"
+  DTS:DTSID="{5B5BCF1E-94CD-43EB-93D4-65088E60626C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5556.0"
+  DTS:LocaleID="3082"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{2716DA21-6F42-4F9E-AC46-1599FD73D0AF}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ConexionLocal]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{6330A594-FF65-41C4-A3C9-88635F94915E}"
+      DTS:ObjectName="ConexionLocal">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-OU8S3DF;User ID=sa;Initial Catalog=EC2_SolucionNegocios;Provider=SQLNCLI11.1;Application Name=SSIS-Package1-{6330A594-FF65-41C4-A3C9-88635F94915E}DESKTOP-OU8S3DF.EC2_SolucionNegocios.sa;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAo4/kgGq+x0ODuRgH3BSCDgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABbinUToh192BwW0uznM1g+gVGuaDPzw3sNjCLkBo4iaQAAAAAOgAAAAAIAACAAAABotszH6bK+a6e6aq6z4kUXXtvyPkIb3saWF4jRYPBGvRAAAAAEO8Re6e4MBMl6MBLEhPdDQAAAAPm/bFzvsmXfHyFCxIXDKukwF4qbHQPVc/rXkveaxxgj/Iur47KIN9++iKQXDy2rRDWvD1nBeHs/OtsT2f57S6Y</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

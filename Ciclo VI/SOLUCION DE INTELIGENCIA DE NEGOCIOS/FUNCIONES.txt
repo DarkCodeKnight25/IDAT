@@ -1,0 +1,19 @@
+IdFecha - DATEPART("YEAR",Date) * 10000 + DATEPART("MONTH",Date) * 100 + DATEPART("DAY",Date) //Concatena el año, mes y día de ña fecha indicados
+DiaSemana - DATEPART("dw",Date) // Obtiene el dia de la semana
+DiaMes - DATEPART("dd",Date) //Obtiene el día del mes
+DiaAño - DATEPART("dy",Date) //Obtiene el día del año
+SemanaAño - DATEPART("wk",Date) //Obtiene la semana del año
+MesAño - DATEPART("mm",Date) //Obtiene el mes del año
+Cuatrimestre - DATEPART("qq",Date) //Obtiene el cuatrimestre del año
+Año -YEAR(Date) //Se obtiene el año de la fecha indicada
+
+Semestre - Cuatrimestre <= 2 ? 1 : 2 //Si el cuatrimestre es 1 o 2, el semestre correspondiente es 1, de lo contrario el semestre será 2
+AñoSemana - (DT_WSTR,4)[Año] + "-" + (DT_WSTR,2)[SemanaAño] //Concatena el año con la semana del año
+AñoMes - (DT_WSTR,4)[Año] + "-" + (DT_WSTR,2)[MesAño] //Concatena  el año con el mes
+AñoCuatrimestre - (DT_WSTR,4)[Año] + "-" + (DT_WSTR,1)Cuatrimestre //Concatena el año con el cuatrimestre
+
+AñoSemestre - (DT_WSTR,4)[Año] + "-" + (DT_WSTR,1)Semestre //Concatena el año con el semestre
+DiaIngles - DiaSemana == 1 ? "Sunday" : DiaSemana == 2 ? "Monday" : DiaSemana == 3 ? "Tuesday" : DiaSemana == 4 ? "Wednesday" : DiaSemana == 5 ? "Thursday" : DiaSemana == 6 ? "Friday" : DiaSemana == 7 ? "Saturday" : ""
+DiaEspañol - DiaSemana == 1 ? "Domingo" : DiaSemana == 2 ? "Lunes" : DiaSemana == 3 ? "Martes" : DiaSemana == 4 ? "Miercoles" : DiaSemana == 5 ? "Jueves" : DiaSemana == 6 ? "Viernes" : DiaSemana == 7 ? "Sabado" : ""
+MesIngles - [MesAño] == 1 ? "January" : [MesAño] == 2 ? "February" : [MesAño] == 3 ? "March" : [MesAño] == 4 ? "April" : [MesAño] == 5 ? "May" : [MesAño] == 6 ? "June" : [MesAño] == 7 ? "July" : [MesAño] == 8 ? "August" : [MesAño] == 9 ? "September" : [MesAño] == 10 ? "October" : [MesAño] == 11 ? "November" : [MesAño] == 12 ? "December" : ""
+MesEspañol - [MesAño] == 1 ? "Enero" : [MesAño] == 2 ? "Febrero" : [MesAño] == 3 ? "Marzo" : [MesAño] == 4 ? "Abril" : [MesAño] == 5 ? "Mayo" : [MesAño] == 6 ? "Junio" : [MesAño] == 7 ? "Julio" : [MesAño] == 8 ? "Agosto" : [MesAño] == 9 ? "Septiembre" : [MesAño] == 10 ? "Octubre" : [MesAño] == 11 ? "Noviembre" : [MesAño] == 12 ? "Diciembre" : ""
