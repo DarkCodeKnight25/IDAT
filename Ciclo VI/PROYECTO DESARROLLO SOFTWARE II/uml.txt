@@ -1,0 +1,89 @@
+@startuml
+left to right direction
+
+actor Cliente
+actor Vendedor
+actor "Atención al Cliente" as ACliente
+actor Gerencia
+actor Almacén
+actor Proveedores
+actor Caja
+
+usecase "Visita Tienda Física" as UC1
+usecase "Selecciona Productos" as UC2
+usecase "Consulta Información de Productos" as UC3
+usecase "Realiza Pedido" as UC4
+usecase "Realiza Pago" as UC5
+usecase "Recibe Asistencia" as UC6
+usecase "Gestiona Devolución" as UC7
+usecase "Recibe Productos" as UC8
+usecase "Gestiona Stock" as UC9
+usecase "Realiza Inventario" as UC10
+usecase "Genera Reportes de Ventas" as UC11
+usecase "Genera Órdenes de Compra" as UC12
+usecase "Recibe Órdenes de Compra" as UC13
+usecase "Realiza Pagos a Proveedores" as UC14
+usecase "Genera Indicadores de Negocio" as UC15
+usecase "Gestiona Pagos a Trabajadores" as UC16
+usecase "Gestiona Promociones" as UC17
+usecase "Gestiona Programas de Fidelización" as UC18
+usecase "Realiza Auditoría de Inventario" as UC19
+usecase "Gestiona Reclamaciones" as UC20
+usecase "Recibe Pago" as UC21
+usecase "Emite Recibo" as UC22
+usecase "Cierra Caja" as UC23
+usecase "Genera Reporte de Caja" as UC24
+
+Cliente -down-> UC1
+Cliente -down-> UC2
+Cliente -down-> UC3
+Cliente -down-> UC4
+Cliente -down-> UC5
+Cliente -down-> UC6
+Cliente -down-> UC7
+
+Vendedor -down-> UC2
+Vendedor -down-> UC3
+Vendedor -down-> UC4
+Vendedor -down-> UC5
+Vendedor -down-> UC11
+Vendedor -down-> UC17
+
+ACliente -down-> UC6
+ACliente -down-> UC7
+ACliente -down-> UC20
+
+Gerencia -down-> UC11
+Gerencia -down-> UC15
+Gerencia -down-> UC16
+Gerencia -down-> UC17
+Gerencia -down-> UC18
+
+Almacén -down-> UC8
+Almacén -down-> UC9
+Almacén -down-> UC10
+Almacén -down-> UC12
+Almacén -down-> UC19
+
+Proveedores -down-> UC12
+Proveedores -down-> UC13
+Proveedores -down-> UC14
+
+Caja -down-> UC21
+Caja -down-> UC22
+Caja -down-> UC23
+Caja -down-> UC24
+
+UC1 -down-> UC2 : include
+UC2 -down-> UC3 : include
+UC4 -down-> UC5 : include
+UC4 -down-> UC8 : include
+UC4 -down-> UC9 : include
+UC5 -down-> UC21 : include
+UC5 -down-> UC22 : include
+UC11 -down-> UC15 : include
+UC12 -down-> UC14 : include
+UC9 -down-> UC19 : include
+UC23 -down-> UC24 : include
+
+@enduml
