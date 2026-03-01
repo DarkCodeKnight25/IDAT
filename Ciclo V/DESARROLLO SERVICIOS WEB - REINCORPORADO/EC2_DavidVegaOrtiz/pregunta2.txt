@@ -1,0 +1,46 @@
+link para comprobar el desarrollo
+https://www.planttext.com/
+
+
+
+@startuml
+title BPMN – Reserva Ejecutiva de Hotel
+
+'--- Pools / Swimlanes ---
+|Cliente|
+start
+:Solicitar reserva;
+:Elegir método (web, teléfono, mostrador);
+
+|Recepción|
+if (Tipo de cliente?) then (Individual)
+  :Validar tarjeta de crédito;
+  if (Cliente se presenta?) then (Sí)
+    :Check-in;
+    :Ofrecer servicios ejecutivos;
+    :Registrar consumos;
+    |Contabilidad|
+    :Generar factura y pago inmediato;
+    stop
+  else (No)
+    |Contabilidad|
+    :Aplicar penalidad (cobro tarjeta);
+    stop
+  endif
+else (Corporativo)
+  :Validar código empresa;
+  if (Cliente se presenta?) then (Sí)
+    :Check-in;
+    :Ofrecer servicios ejecutivos;
+    :Registrar consumos;
+    |Contabilidad|
+    :Facturación consolidada fin de mes;
+    stop
+  else (No)
+    |Contabilidad|
+    :Aplicar penalidad (cargo a cuenta empresa);
+    stop
+  endif
+endif
+
+@enduml

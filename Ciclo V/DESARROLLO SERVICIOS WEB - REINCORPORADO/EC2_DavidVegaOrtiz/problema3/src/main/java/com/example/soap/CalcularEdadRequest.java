@@ -1,0 +1,15 @@
+package com.example.soap;
+
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlType;
+
+@XmlRootElement(name = "CalcularEdadRequest", namespace = "http://problema3.com/soap")
+@XmlType(name = "CalcularEdadRequest", namespace = "http://problema3.com/soap")
+public class CalcularEdadRequest {
+    private int anioNacimiento;
+
+    @XmlElement(namespace = "http://problema3.com/soap")
+    public int getAnioNacimiento() { return anioNacimiento; }
+    public void setAnioNacimiento(int anioNacimiento) { this.anioNacimiento = anioNacimiento; }
+}
