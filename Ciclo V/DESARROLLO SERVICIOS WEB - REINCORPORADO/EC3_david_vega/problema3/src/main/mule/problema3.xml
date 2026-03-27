@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+      xmlns:http="http://www.mulesoft.org/schema/mule/http"
+      xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="
+        http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+        http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+        http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+
+    <!-- Configuración del HTTP Listener -->
+    <http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config">
+        <http:listener-connection host="0.0.0.0" port="8082" />
+    </http:listener-config>
+
+    <!-- Configuración global HTTP Request -->
+    <http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" basePath="/v3.1">
+        <http:request-connection protocol="HTTPS" host="restcountries.com" port="443" />
+    </http:request-config>
+
+    <!-- Flujo principal -->
+    <flow name="problema3Flow" doc:id="0010a0d6-ce45-48dd-9200-43af973c6994">
+        <!-- Listener para recibir peticiones GET -->
+        <http:listener doc:name="Listener" path="/paises_oceania" config-ref="HTTP_Listener_config"/>
+
+        <!-- Request a REST Countries con query parameters -->
+        <http:request method="GET" doc:name="Request" url="https://restcountries.com/v3.1/all" config-ref="HTTP_Request_configuration">
+            <http:query-params><![CDATA[#[output application/java
+---
+{
+    "fields" : "name,region"
+}]]]></http:query-params>
+        </http:request>
+
+        <!-- Transform Message: filtrar países de Oceanía -->
+        <ee:transform doc:name="Transform Message">
+            <ee:message>
+                <ee:set-payload><![CDATA[%dw 2.0
+output application/json
+var paisesOceania = (payload default [] as Array<Object>)
+    filter $.region == "Oceania"
+    map $.name.common
+---
+{
+    region: "Oceania",
+    paises: paisesOceania
+}]]></ee:set-payload>
+            </ee:message>
+        </ee:transform>
+
+        <!-- Logger para mostrar resultado en consola -->
+        <logger level="INFO" doc:name="Logger - Resultado Oceanía" message="#[payload]"/>
+
+        <!-- Error Handler -->
+        <error-handler>
+            <on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" type="ANY">
+                <ee:transform doc:name="Transform Message">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[
+%dw 2.0
+output application/json
+---
+{
+    error: "No se pudo recuperar la lista de países de Oceanía"
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </on-error-propagate>
+        </error-handler>
+    </flow>
+</mule>

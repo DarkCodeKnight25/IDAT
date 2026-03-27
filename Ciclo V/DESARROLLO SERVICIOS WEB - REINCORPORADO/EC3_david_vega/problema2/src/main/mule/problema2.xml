@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="96c8b271-5e46-4da3-b7df-900ac147da15" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="problema2Flow" doc:id="900eb671-6d17-49e7-b816-564daa2667d1" >
+		<http:listener doc:name="Listener" doc:id="ea4648b9-08ea-444e-947b-fdf770572a7c" config-ref="HTTP_Listener_config" path="/notas"/>
+		<logger level="INFO" doc:name="Logger" doc:id="0b5cfba9-0edd-4091-9e7f-a6a558e7e23a" message="#[vars.estado]" />
+		<choice doc:name="Choice" doc:id="7b20ab9e-b447-456e-b9f7-b92cc665ec1b" >
+			<when expression="#[payload.nota as Number &lt; 13]" >
+				<set-variable value="Desaprobado" doc:name="Set Variable" doc:id="8fc7d30a-8541-4d52-b414-53fb4bb3a3e4" variableName="estado" />
+			</when>
+			<otherwise >
+				<set-variable value="Aprobado" doc:name="Set Variable" doc:id="7aeb8c2c-aa0f-41a0-9094-114317b5b9f9" variableName="estado" />
+			</otherwise>
+		</choice>
+		<ee:transform doc:name="Transform Message" doc:id="cb0abc81-10d2-4228-899d-3ddd7ea324fb" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+  nombre: payload.nombre default "",
+  curso: payload.curso default "",
+  estado: vars.estado default "",
+  reprobado: ((payload.nota[0] default 0) as Number) < 13
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+	</flow>
+</mule>
