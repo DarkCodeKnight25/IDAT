@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment"
+        android:icon="@drawable/outline_add_home_24"
+        android:title="@string/texthome" />
+
+    <item android:id="@+id/galeriaFragment"
+        android:icon="@drawable/outline_add_a_photo_24"
+        android:title="@string/textgaleria" />
+
+    <item android:id="@+id/perfilFragment"
+        android:icon="@drawable/outline_account_box_24"
+        android:title="@string/textperfil" />
+
+    <item android:id="@+id/masOpcionesFragment"
+        android:icon="@drawable/outline_align_flex_center_24"
+        android:title="@string/textmasopciones" />
+
+</menu>
