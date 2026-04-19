@@ -1,0 +1,232 @@
+PROYECTO RESTful – PASO A PASO
+ 
+1️⃣ Preparativos
+Antes de comenzar, asegúrate de tener:
+1.	Spring Tool Suite (STS) 4.x o Eclipse con Spring Boot.
+2.	Java 8 o superior instalado y configurado.
+3.	Maven instalado (STS lo trae integrado).
+4.	No necesitamos Tomcat externo ni dependencias javax.
+ 
+2️⃣ Crear proyecto Spring Boot
+1.	Abrir STS → File > New > Spring Starter Project.
+2.	Configuración del proyecto:
+o	Name: restws-war-embedded
+o	Type: Maven Project
+o	Packaging: WAR
+o	Java Version: 8 o superior
+o	Group: com.example
+o	Artifact: restws-war-embedded
+3.	Presiona Next.
+4.	Dependencias:
+o	Spring Web
+5.	Presiona Next → Finish.
+Se creará un proyecto básico con la estructura estándar de Maven.
+ 
+3️⃣ Configurar pom.xml correctamente
+Abre pom.xml y reemplaza el contenido por:
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>restws-war-embedded</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <name>restws-war-embedded</name>
+    <description>Proyecto RESTful WAR autocontenido</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.0</version>
+        <relativePath/>
+    </parent>
+
+    <dependencies>
+        <!-- Spring Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Plugin para generar WAR/JAR ejecutable -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
+4️⃣ Crear clase principal
+Ruta: src/main/java/com/example/restwswarembedded/RestwsWarEmbeddedApplication.java
+package com.example.restwswarembedded;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RestwsWarEmbeddedApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(RestwsWarEmbeddedApplication.class, args);
+    }
+}
+
+5️⃣ Crear entidad Pais
+
+Paquete: com.example.restwswarembedded.model
+Ruta: src/main/java/com/example/restwswarembedded/model/Pais.java
+package com.example.restwswarembedded.model;
+
+public class Pais {
+    private int id;
+    private String nombre;
+    private String capital;
+    private int poblacion;
+    private String continente;
+
+    public Pais() {}
+
+    public Pais(int id, String nombre, String capital, int poblacion, String continente) {
+        this.id = id;
+        this.nombre = nombre;
+        this.capital = capital;
+        this.poblacion = poblacion;
+        this.continente = continente;
+    }
+
+    // Getters y setters
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
+    public String getCapital() { return capital; }
+    public void setCapital(String capital) { this.capital = capital; }
+    public int getPoblacion() { return poblacion; }
+    public void setPoblacion(int poblacion) { this.poblacion = poblacion; }
+    public String getContinente() { return continente; }
+    public void setContinente(String continente) { this.continente = continente; }
+}
+
+6️⃣ Crear controlador REST PaisController
+Paquete: com.example.restwswarembedded.controller
+Ruta: src/main/java/com/example/restwswarembedded/controller/PaisController.java
+package com.example.restwswarembedded.controller;
+
+import com.example.restwswarembedded.model.Pais;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/paises")
+public class PaisController {
+
+    private List<Pais> paises = new ArrayList<>();
+
+    public PaisController() {
+        paises.add(new Pais(1, "Perú", "Lima", 33000000, "América"));
+        paises.add(new Pais(2, "Chile", "Santiago", 19000000, "América"));
+        paises.add(new Pais(3, "España", "Madrid", 47000000, "Europa"));
+    }
+
+    // GET todos los países
+    @GetMapping
+    public List<Pais> getAllPaises() { return paises; }
+
+    // GET país por ID
+    @GetMapping("/{id}")
+    public ResponseEntity<Pais> getPaisById(@PathVariable int id) {
+        return paises.stream()
+                     .filter(p -> p.getId() == id)
+                     .findFirst()
+                     .map(ResponseEntity::ok)
+                     .orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
+    }
+
+    // POST nuevo país
+    @PostMapping
+    public ResponseEntity<Pais> createPais(@RequestBody Pais pais) {
+        paises.add(pais);
+        return ResponseEntity.status(HttpStatus.CREATED).body(pais);
+    }
+
+    // PUT actualizar país
+    @PutMapping("/{id}")
+    public ResponseEntity<Pais> updatePais(@PathVariable int id, @RequestBody Pais paisActualizado) {
+        for (Pais p : paises) {
+            if (p.getId() == id) {
+                p.setNombre(paisActualizado.getNombre());
+                p.setCapital(paisActualizado.getCapital());
+                p.setPoblacion(paisActualizado.getPoblacion());
+                p.setContinente(paisActualizado.getContinente());
+                return ResponseEntity.ok(p);
+            }
+        }
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+    }
+
+    // DELETE país
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deletePais(@PathVariable int id) {
+        paises.removeIf(p -> p.getId() == id);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+    }
+}
+
+7️⃣ Generar el WAR
+1.	Haz clic derecho sobre el proyecto → Run As > Maven build…
+2.	En Goals, escribe:
+clean package
+
+3.	Presiona Run.
+4.	El WAR se generará en:
+target/restws-war-embedded.war
+8️⃣ Ejecutar el Postman
+
+Abrir el Postman
+
+9️⃣ Probar con Postman
+•	GET todos los países
+GET http://localhost:8080/api/paises
+
+•	Método HTTP: POST
+•	URL:
+http://localhost:8080/api/paises
+Body (raw, JSON):
+{
+  "id": 4,
+  "nombre": "Argentina",
+  "capital": "Buenos Aires",
+  "poblacion": 45000000,
+  "continente": "América"
+}
+•	PUT actualizar país
+•	Método HTTP: PUT
+•	URL:
+http://localhost:8080/api/paises/1
+Body (raw, JSON):
+{
+  "id": 1,
+  "nombre": "Perú",
+  "capital": "Lima",
+  "poblacion": 34000000,
+  "continente": "América"
+}
+Operación	Método	URL
+Listar todos	GET	http://localhost:8080/api/paises
+Obtener por ID	GET	http://localhost:8080/api/paises/1
+Crear nuevo país	POST	http://localhost:8080/api/paises
+Actualizar país	PUT	http://localhost:8080/api/paises/1
+Eliminar país	DELETE	http://localhost:8080/api/paises/1
+
