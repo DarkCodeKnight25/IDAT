@@ -1,0 +1,11 @@
+apache-cxf-3.5.0
+https://idat628-my.sharepoint.com/:u:/g/personal/d18132_idat_pe/IQBHtrp-eCwYTJ849idqoPvrAVi3WVcyiyzqTkdmZV-behA?e=3mYmDh
+
+apache-tomcat-9.0.53
+https://idat628-my.sharepoint.com/:u:/g/personal/d18132_idat_pe/IQAYi173d1owSYTJ6b290p86AXaBlaBIk7iIxULEGrqkCnw?e=ipo2YF
+
+eclipse-inst-jre-win64
+https://idat628-my.sharepoint.com/:u:/g/personal/d18132_idat_pe/IQAcya81U6KBSpzHWwbzQf4FAeJa8I5m2J82J6fbixZjK30?e=kDnL5k
+
+jdk-16.0.2_windows-x64_bin
+https://idat628-my.sharepoint.com/:u:/g/personal/d18132_idat_pe/IQCwx_eNPEgmTo982VfZyR9yAWhRkKGZ7ibs5Eg0pvpRveA?e=jjWsdQ
