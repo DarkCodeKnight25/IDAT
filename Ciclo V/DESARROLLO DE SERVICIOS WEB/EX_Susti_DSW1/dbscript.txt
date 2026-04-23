@@ -1,0 +1,40 @@
+DROP DATABASE IF EXISTS examen_sustitutorio;
+
+CREATE DATABASE examen_sustitutorio
+DEFAULT CHARACTER SET utf8mb4
+DEFAULT COLLATE utf8mb4_unicode_ci;
+
+USE examen_sustitutorio;
+
+CREATE TABLE person (
+    business_entity_id INT NOT NULL AUTO_INCREMENT,
+    person_type VARCHAR(2) NOT NULL,
+    name_style BIT(1) NULL,
+    title VARCHAR(8) NULL,
+    first_name VARCHAR(50) NOT NULL,
+    middle_name VARCHAR(50) NULL,
+    last_name VARCHAR(50) NOT NULL,
+    suffix VARCHAR(10) NULL,
+    email_promotion INT NULL,
+    additional_contact_info TEXT NULL,
+    demographics TEXT NULL,
+    rowguid VARCHAR(36) NOT NULL,
+    modified_date DATETIME NOT NULL,
+    PRIMARY KEY (business_entity_id)
+);
+
+CREATE TABLE customer (
+    customer_id INT NOT NULL AUTO_INCREMENT,
+    person_id INT NULL,
+    store_id INT NULL,
+    territory_id INT NULL,
+    account_number VARCHAR(20) NOT NULL,
+    rowguid VARCHAR(36) NOT NULL,
+    modified_date DATETIME NOT NULL,
+    PRIMARY KEY (customer_id),
+    CONSTRAINT fk_customer_person
+        FOREIGN KEY (person_id)
+        REFERENCES person (business_entity_id)
+        ON DELETE SET NULL
+        ON UPDATE CASCADE
+);

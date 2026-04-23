@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment1"
+        android:title="Usuarios"
+        android:icon="@android:drawable/ic_menu_view" /> <!-- Icono predeterminado -->
+    <item
+        android:id="@+id/fragment2"
+        android:title="Mi Cuenta"
+        android:icon="@android:drawable/ic_menu_info_details" /> <!-- Icono predeterminado -->
+</menu>
